@@ -2,12 +2,8 @@
     "name": "Open In Steam",
     "description": "Opens all steam pages in your steam client.",
     "version": "0.1",
-    "version_name": "v0.1 beta",
+    "version_name": "v0.1-beta",
     "manifest_version": 3,
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
     "content_scripts":[{
         "js": [
             "script.js"
