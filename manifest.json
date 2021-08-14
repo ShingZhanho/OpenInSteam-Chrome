@@ -6,10 +6,12 @@
     "manifest_version": 3,
     "content_scripts":[{
         "js": [
-            "script.js"
+            "js/ga.js",
+            "js/gtag.js",
+            "js/script.js"
         ],
         "css": [
-            "page-element-style.css"
+            "css/page-element-style.css"
         ],
         "matches":[
             "*://steamcommunity.com/*",
@@ -26,6 +28,5 @@
         "128": "icons/icon128.png"
     },
     "author": "ShingZhanho",
-    "homepage_url": "https://github.com/ShingZhanho/OpenInSteam-Chrome",
-    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+    "homepage_url": "https://github.com/ShingZhanho/OpenInSteam-Chrome"
 }

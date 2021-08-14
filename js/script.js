@@ -18,20 +18,20 @@ function getContainer() {
     btn_open_in_client.setAttribute('href', 'steam://openurl/'.concat(document.URL));
     btn_open_in_client.setAttribute('id', 'ext_btnOIC');
     btn_open_in_client.addEventListener('click', trackButton);
-    
+
     var span_open_in_client = document.createElement('span');
     span_open_in_client.className = 'btn-text';
     span_open_in_client.innerHTML = 'Open in Steam Client';
     btn_open_in_client.appendChild(span_open_in_client);
 
+    // tracker
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2B8DVYDL94');
+
     // add all buttons to container
     btn_container.appendChild(btn_open_in_client);
-
-    // add google analytics tracker
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = 'https://ssl.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    btn_container.appendChild(s);
 
     return btn_container;
 }
