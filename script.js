@@ -6,7 +6,9 @@ function getContainer() {
     // create open in steam button
     var btn_open_in_client = document.createElement('a');
     btn_open_in_client.className = "btnv6_blue_hoverfade medium_btn";
+    btn_open_in_client.attributes['href'] = 'steam://openurl/'.concat(document.URL);
     var span_open_in_client = document.createElement('span');
+    span_open_in_client.className = 'btn-text';
     span_open_in_client.innerHTML = 'Open in Steam Client';
     btn_open_in_client.appendChild(span_open_in_client);
 
@@ -18,4 +20,4 @@ function getContainer() {
 
 document.querySelector('div.responsive_page_content')
     .insertBefore(getContainer(), 
-                    document.querySelector('div.responsive_page_template_content'));
+    document.querySelector('div.responsive_page_template_content'));

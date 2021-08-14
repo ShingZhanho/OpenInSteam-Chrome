@@ -10,3 +10,9 @@
     z-index: 50;
     backdrop-filter: blur(50px) saturate(1.8);
 }
+
+span.btn-text {
+    line-height: 30px;
+    font-size: 15px;
+    padding: 0 15px;
+}
