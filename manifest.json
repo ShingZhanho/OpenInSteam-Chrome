@@ -2,6 +2,7 @@
     "name": "Open In Steam",
     "description": "Opens all steam pages in your steam client.",
     "version": "0.1",
+    "version_name": "v0.1 beta",
     "manifest_version": 3,
     "permissions": [
         "activeTab",
@@ -27,5 +28,7 @@
         "32": "icons/icon32.png",
         "64": "icons/icon64.png",
         "128": "icons/icon128.png"
-    }
+    },
+    "author": "ShingZhanho",
+    "homepage_url": "https://github.com/ShingZhanho/OpenInSteam-Chrome"
 }
