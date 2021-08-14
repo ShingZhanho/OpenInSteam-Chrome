@@ -15,7 +15,9 @@
             "page-element-style.css"
         ],
         "matches":[
-            "*://steamcommunity.com/*"
+            "*://steamcommunity.com/*",
+            "*://store.steampowered.com/*",
+            "*://help.steampowered.com/*"
         ],
         "run_at": "document_end"
     }
