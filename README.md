@@ -20,3 +20,11 @@ See the following images:
         <td><img src="https://i.ibb.co/Tkfb5rM/screen002.png" alt="Screenshot of OpenInSteam 2"></td>
     </tr>
 </table>
+
+## Privacy Policy
+1. The extension itself does not collect any information from its users.
+2. The extension uses Google Analytics to track the usage of the extension.
+Therefore, Google's privacy policy also applies to the extension.
+
+## Acknowledgement
+The green arrow in the extension's icon is generously provided by [Icons8](icons8.com) for free. 
